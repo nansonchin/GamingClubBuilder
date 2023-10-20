@@ -1,0 +1,135 @@
+
+
+body {
+  margin-top: 50px; 
+  font-family:'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  background-color: black;
+  color: #fff;
+}
+
+h1 {
+   font-weight: 700;
+   color: #fff;
+   font-size: 1.75rem;
+}
+
+h2 {
+   font-weight: 700;
+   color: #000;
+   font-size: 1.75rem;
+}
+
+
+.main-grid {
+    display: grid;
+    grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
+    grid-column-gap: 2em;
+}
+
+main {
+  background-color: #fff;
+  color: #000;
+  grid-column: 2 /-2;
+}
+
+body{
+      background-color: #fff;
+  color: #000;
+}
+
+  .head {
+  grid-column: 2 / -2;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.page-title {
+  color: #000;
+  font-size: 2.5rem;
+  justify-self: center;
+}
+
+.main-image {
+  grid-column: 2 / -2;
+  object-fit: cover;
+  max-width: 100%;
+  display: block;
+  box-shadow: 10px 10px 250px #000;
+}
+
+.main-text {
+  grid-column: 2 / -2;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin-top: 1em;
+  background: #fda039;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub {
+  margin-top: 3em;
+}
+
+  @media (min-width: 600px) {
+      .main-grid {
+        grid-template-columns: minmax(1em, 1fr) repeat(3, minmax(20px, 320px)) minmax(1em, 1fr);
+    }
+    
+    .head {
+      grid-column: 3 / -3;
+    }
+    
+    
+    .main-image {
+      grid-column: 2;
+      margin-top: 1.3em;
+  
+    }
+    
+    .main-text {
+      grid-column: 3 / span 2;
+      margin-top: 0;
+    }
+    
+    .section-title::after {
+  margin-left: 0;
+}
+}
+    
+    .container{
+        display: flex;
+        padding: 60px;
+        gap: 50px;
+    }
+.bgcol{
+  background: grey;
+  height: 300px;
+}
+.testimg{
+  width:15%;
+  height:20%;
+  border-radius: 50%;
+}
+.card{
+  box-shadow:10px 10px 26px -15px rgba(0, 0, 0, 0.75)
+}
+.card-body{
+  height:350px;
+}
+ 
+
+.subtitle{
+    text-align: CENTER;
+    font-size: 35px;
+}
+    

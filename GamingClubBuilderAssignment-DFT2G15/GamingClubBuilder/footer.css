@@ -1,0 +1,92 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 Aug 2022, 10:35:28 pm
+    Author     : User
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 5px 50px;
+    line-height: 1.5;
+}
+.footer_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #000000;
+    padding: 60px 0;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.footer_icon {
+        height: 50%;
+}
+
+.footer-col ul li {
+        float: left;
+        margin: 20px 15px;
+}
+
+.footer-col ul li a {
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+}
+
+.footer-col ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-col .footer_logo {
+        margin: 0 5%;
+}
+
+.footer-col .footer_logo img {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+}
+
+.footer-col .footer_logo p {
+        color: #ffffff;
+        margin: 10px 0 0 0;
+        font-size: 10px;
+}
+
+.footer-col .footer_icon a img {
+        margin: 0 15px;
+        transition: .1s ease;
+        border-radius: 7px;
+
+}
+
+.footer-col .footer_icon a img:hover {
+        background-color: #ffffff;
+}

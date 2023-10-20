@@ -1,0 +1,31 @@
+.announce{
+    display: flex;
+    margin: 2% 16%;
+    background-color:rgb(0,0,0,0.1);
+     border-radius: 15px 50px 30px;
+     box-shadow: 20px 20px 50px grey;
+
+
+}
+
+.left-announce{
+      
+          border-radius: 15px 50px 30px;
+}
+
+.right-announce{
+    border: 2px solid;
+    width:60%;
+    background-color:black;
+    filter:opacity(10px);
+    border-radius: 15px 50px 30px;
+}
+
+.post-announce{
+    margin-left:2%;
+}
+
+#announce-head{
+    text-align: center;
+    justify-content: center;
+}

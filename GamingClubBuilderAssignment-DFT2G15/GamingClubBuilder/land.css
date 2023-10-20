@@ -1,0 +1,146 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 6, 2022, 8:34:52 AM
+    Author     : guoc7
+*/
+
+.carou-indicators {
+    position: absolute;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+
+
+.game-detail{
+    display:flex;
+    gap:10%;
+    margin:2%;
+    justify-content: center;
+    border-bottom:2px solid;
+    border-color:rgb(0,0,0,0.7);
+    padding-bottom:1%;
+    margin-left:10%;
+    margin-right:10%;
+    box-shadow:0 5px rgb(0,0,0,0.3);
+}
+
+.game-detail img{
+    max-width:50px;
+    max-height:50px;
+    filter: brightness(80%);
+}
+
+
+.table-notice{
+    box-shadow: 0 0 25px rgb(0,0,0,0.4), 0 0 2px darkblue;
+    border-radius: 10px;
+    margin-bottom: 15%;
+    width:50%;
+    margin-left:20%;
+}
+
+#table-head{
+    height:50px;
+    text-align: center;
+    font-family: 'Games', sans-serif;
+    background: black;
+    font-size:25px;
+    color:white;
+    filter:saturate(50%) brightness(120%);
+    border-radius: 5px;
+}
+.video-heading{
+    height:50px;
+}
+
+.video-heading h4{
+    text-align: center;
+    font-family: 'Games', sans-serif;
+    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/002/393/570/small/black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-abstract-widescreen-background-vector.jpg");
+    background-size: auto;
+    font-size:25px;
+    color:white;
+    padding:1%;
+}
+
+.video{
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1634154369165-cadcd9af7100?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=441&q=80");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height:120%;
+    padding-block:128px;
+    padding: 0;
+}
+
+.videocompetition{
+    padding-top:20px;
+}
+.videocompetition video{
+    height:40%;
+    width:60%;
+    filter:brightness(80%);
+    justify-content: center;
+}
+
+.videocompetition video:hover{
+    transition: all 200ms ease-in;
+    width:80%;
+
+    height:70%;
+    z-index:2;
+    box-shadow:0 6px 10px rgba(255,255,255);
+    filter:brightness(110%);
+}
+.vtable{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.community{
+    width:auto;
+}
+
+#headCommunity{
+    font-family: 'Games', sans-serif;
+    color:black;
+    text-align: center;
+    font-size:100px;
+    padding:5%;
+    margin:0;
+}
+
+.community{
+    height:800px;
+}
+
+.community-logo{
+    justify-content: center;
+    text-align:center;
+    word-spacing: 30px;
+    width:100%;
+
+}
+.community-logo a{
+    margin:2%;
+}
+
+.community-logo a img{
+    filter:saturate(40%)brightness(60%);
+}
+
+.community-logo a img:hover{
+    filter:brightness(100%);
+    
+}
+
+
+

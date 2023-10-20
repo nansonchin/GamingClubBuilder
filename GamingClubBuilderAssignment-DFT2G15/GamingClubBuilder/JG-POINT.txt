@@ -1,0 +1,25 @@
+Land- 那个 notice 那边 的error 记得按一 
+如果可以的话 有什么要link回去landpage的 记得这么link <a href= "land.php?notice=1">
+search function 先link 去weberror page先
+
+Log in part 
+log in 成功跳去 profiel
+log in 失败回去log in page 
+
+Forgot passwrod
+check email是不是本身存在于member里面 如果不是 error 如果是 succes 的我记得我是写好了
+
+Announcment link去 function not found page先
+
+admin part 如果可以
+尽量link 去 
+<a href= "admin-notice.php?notice=">
+<a href= "admin-user-table.php?page=">
+<a href= "admin-register-event.php?registerEvent=1">
+
+然后 admin event 的 记得和notice一样要按1 page 先
+Admin Create Event 先link去 weberror page 先
+
+最后 admin part 的那些page arrow  <  > 那个如果可以delete吧
+<a href="#">&laquo;</a> 
+<a href="#">&raquo;</a>

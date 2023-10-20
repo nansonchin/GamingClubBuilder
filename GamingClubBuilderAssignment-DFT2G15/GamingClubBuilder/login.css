@@ -1,0 +1,228 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 6, 2022, 12:14:09 PM
+    Author     : guoc7
+*/
+*{
+    padding:0;
+    margin:0;
+}
+.login-body{
+    max-height: 1080px;
+    max-width: 1920px;
+}
+
+.login-back{
+    background-image: url("https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: 1900px 1000px;
+    height:1000px;
+    filter: blur(8px)brightness(50%);
+}
+
+.login-content{
+    height:700px;
+    margin-left:12%;
+    position:absolute;
+    width:1200px;
+    bottom:5%;
+    display:flex;
+    border-radius: 15px;
+    box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.7), 0 20px 20px 0 rgba(0, 0, 0, 0.9);
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.bg-image-left{
+    background-image: url("https://images.unsplash.com/photo-1524169358666-79f22534bc6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    filter:blur(1px);
+    position: relative;
+    height:200px;
+}
+
+.left-content{
+    background: url("https://images.unsplash.com/photo-1524169358666-79f22534bc6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    padding:0;
+    color:white;
+    font-family: 'Games', sans-serif;
+    text-align: center;
+    justify-content: center;
+    width:600px;
+    padding-top:200px;
+    border-radius: 15px;
+}
+
+#left-h1{
+    font-size: 100px;
+}
+
+.loginpage-button{
+    display:block;
+    width:30%;
+    height:15%;
+    border-radius:12px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    margin-left:50%;
+    text-decoration: none;
+    color:gray;
+    background-color:#171717;
+    font-family: 'Games', sans-serif;
+    font-size:30px;
+    margin-top:90px;
+    padding-top: 15px;
+                                                
+}
+
+.left-content a:hover{
+    color:white;
+    background-color:#171717;
+}
+
+.right-content{
+    width:600px;
+    padding-top:4%;
+    background-color:white;
+    border-radius: 15px;
+}
+
+#right-h1{
+    font-size:50px;
+}
+
+#right-p{
+    margin-bottom:0;
+}
+
+#user-input{
+    width: 50%;
+    padding-left:2%;
+    margin-left:2%;
+    height: 60px;
+     -webkit-transition: width 1s ease-in-out;/*for chrome,IE,Edge*/ 
+    -moz-transition:width 1s ease-in-out;/*for mozilla*/ 
+    -o-transition: width 1s ease-in-out;/*for opera*/ 
+    transition: width .5s ease-in-out; 
+    border-left: 10px solid #90caf9;
+}
+
+#user-input:focus{
+    width: 70%;
+}
+
+.user-bar{
+    padding-top:10%;
+}
+
+.right-fpass{
+    padding-top:30px;
+}
+
+#right-forgot{
+    color:gray;
+}
+
+#right-forgot:hover{
+    color: #90caf9;
+}
+
+.login-method{
+    gap:2%;
+}
+.login-method a img{
+    padding-top:20%;
+    width: 40px;
+    height:50px;
+    filter:brightness(60%);
+}
+
+.login-method a img:hover{
+    padding-top:20%;
+    width: 40px;
+    height:50px;
+    filter:brightness(110%);
+}
+
+.login-button a:hover{
+    color:white;
+    background-color:#171717;
+}
+
+@media (min-width: 1199 px) and (max-width: 1399px)
+{
+    .login-content{
+        margin-left:5%;
+        bottom:5%;
+        
+    }
+    .login-back{
+         height:900px;
+    }
+
+}
+
+
+@media (min-width: 991px) and (max-width: 1199px)
+{
+    .login-content{
+        margin-left:10%;
+        bottom:5%;
+        
+    }
+    .left-content{
+        opacity: 0;
+    }
+    .right-content{
+    width:400px;
+    background-color:white;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    }   
+    
+    .login-back{
+         height:800px;
+    }
+
+}
+
+/* ipad */
+@media (min-width: 768px) and (max-width: 990px)
+{
+    
+  .left-content {
+        width:200px;
+    }
+    .left-content{
+        opacity: 0;
+    }
+}
+/* END ipad */
+
+/* Mobile*/
+@media (min-width: 320px) and (max-width: 767px)
+{
+  .left-content {
+        width:100px;
+    }
+ 
+}
+
+/* END Mobile */

@@ -1,0 +1,5 @@
+Create a user account as Game
+dbname as game
+password as game
+export all data into database 
+run helper.php to make sure it able to connect
